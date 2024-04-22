@@ -1,0 +1,41 @@
+:root {
+    --bg-light: #ffffff;
+    --bg-dark: #1f1f1f;
+    --text-light: #000000;
+    --text-dark: rgb(81, 169, 245);
+}
+
+body {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+}
+
+#theme-button {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+#theme-button ion-icon {
+    margin-left: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
